@@ -23,3 +23,4 @@ jobs:
           IMAGE=registry.example.com/my-app:${{ github.sha }}
           docker build -t $IMAGE .
           docker push $IMAGE
+
